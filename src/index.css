@@ -1,0 +1,37 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import url('bootstrap-icons');
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+  overflow: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.warning{
+       background:#e1e1e1;     
+        width:500px; 
+        position:absolute; 
+        top:50%; 
+        left:30%; 
+        right:20px;     
+        z-index:41;
+        padding:30px; 
+        
+        
+}
+.amount_btns button{
+  padding: 5px 10px;
+    font-weight:bold ;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
